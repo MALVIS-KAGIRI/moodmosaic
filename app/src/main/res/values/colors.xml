@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sand">#F4EFE6</color>
+    <color name="sand_deep">#E6D9C7</color>
+    <color name="ink">#1D2833</color>
+    <color name="ink_soft">#5A6472</color>
+    <color name="coral">#E76F51</color>
+    <color name="mist">#F8F5F0</color>
+    <color name="hero_surface">#FFF8F1</color>
+    <color name="hero_accent">#9F4F2A</color>
+    <color name="sky">#99D8FF</color>
+</resources>

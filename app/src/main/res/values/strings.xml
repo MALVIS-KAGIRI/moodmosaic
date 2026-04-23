@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoodMosaic</string>
+    <string name="mood_calendar">MOOD CALENDAR</string>
+    <string name="month_subtitle">Turn a month of feelings into a living color field.</string>
+    <string name="tap_any_day">Tap any day to paint your mood.</string>
+    <string name="visual_hint">Small daily check-ins build a bigger picture over time.</string>
+    <string name="one_tap_log">UNDER 2 SEC</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="open_art">Open mood art</string>
+    <string name="create_art">Create art</string>
+    <string name="pick_color">Pick a mood color</string>
+    <string name="cancel">Cancel</string>
+    <string name="monthly_canvas">MONTHLY CANVAS</string>
+    <string name="art_subtitle">A generated composition shaped by your saved colors.</string>
+    <string name="art_preview">Mood art preview</string>
+    <string name="regenerate_art">Regenerate art</string>
+    <string name="save_art">Save art</string>
+    <string name="share_art">Share art</string>
+    <string name="saved_success">Mood art saved to Pictures/MoodMosaic</string>
+    <string name="save_failed">Save failed: %1$s</string>
+    <string name="save_before_share">Save the artwork first.</string>
+    <string name="art_not_ready">Art is not ready yet.</string>
+    <string name="mon_short">M</string>
+    <string name="tue_short">T</string>
+    <string name="wed_short">W</string>
+    <string name="thu_short">T</string>
+    <string name="fri_short">F</string>
+    <string name="sat_short">S</string>
+    <string name="sun_short">S</string>
+</resources>
