@@ -49,7 +49,7 @@ The generated art can be saved to the device gallery and shared through Android'
 ```text
 app/
   src/main/
-    java/com/example/moodmosaic/
+    java/moodmosaic/
       MainActivity.java
       ArtActivity.java
       MoodAdapter.java
