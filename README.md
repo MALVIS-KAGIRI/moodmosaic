@@ -5,13 +5,13 @@ MoodMosaic is an Android mood journal built in Java where users log how they fee
 ## Screenshots
 
 ### Home Screen
-![MoodMosaic Home](C:/Users/USER/Desktop/Screenshot_20260423_092613.png)
+![MoodMosaic Home](Screenshot_20260423_092613.png)
 
 ### Monthly Art Canvas
-![MoodMosaic Art Screen](C:/Users/USER/Desktop/Screenshot_20260423_092730.png)
+![MoodMosaic Art Screen](Screenshot_20260423_092730.png)
 
 ### Calendar View
-![MoodMosaic Calendar](C:/Users/USER/Desktop/Screenshot_20260423_092753.png)
+![MoodMosaic Calendar](Screenshot_20260423_092753.png)
 
 ## Features
 
