@@ -7,47 +7,47 @@ MoodMosaic is a Java-based Android mood journal that helps users track feelings 
 ### 1. Main Calendar
 The home screen shows the current month, quick actions, and the visual mood grid.
 
-![Main Calendar](C:/Users/USER/android_projects/moodmosaic/images/4.jpeg)
+![Main Calendar](moodmosaic/images/4.jpeg)
 
 ### 2. Logging Moods Over Time
 As users save moods, the monthly summary updates and the selected days become part of the visual story.
 
-![Calendar With Saved Mood](C:/Users/USER/android_projects/moodmosaic/images/9.jpeg)
+![Calendar With Saved Mood](moodmosaic/images/9.jpeg)
 
 ### 3. Mood Picker
 Tapping a day opens the mood picker with preset moods and saved custom moods.
 
-![Mood Picker](C:/Users/USER/android_projects/moodmosaic/images/2.jpeg)
+![Mood Picker](moodmosaic/images/2.jpeg)
 
 ### 4. Help / Onboarding
 The app includes a built-in explanation of how the experience works.
 
-![How It Works](C:/Users/USER/android_projects/moodmosaic/images/1.jpeg)
+![How It Works](moodmosaic/images/1.jpeg)
 
 ### 5. Month History
 Users can review past months and jump back into any saved calendar.
 
-![Month History](C:/Users/USER/android_projects/moodmosaic/images/8.jpeg)
+![Month History](moodmosaic/images/8.jpeg)
 
 ### 6. Art Generation
 The selected month can be turned into an abstract visual composition.
 
-![Art Screen](C:/Users/USER/android_projects/moodmosaic/images/3.jpeg)
+![Art Screen](moodmosaic/images/3.jpeg)
 
 ### 7. Multiple Art Styles
 Users can switch between different visual styles from the style selector.
 
-![Art Styles Dropdown](C:/Users/USER/android_projects/moodmosaic/images/6.jpeg)
+![Art Styles Dropdown](moodmosaic/images/6.jpeg)
 
 ### 8. Export Options
 The app supports exporting both generated art and monthly CSV mood data.
 
-![Art Export Options](C:/Users/USER/android_projects/moodmosaic/images/5.jpeg)
+![Art Export Options](moodmosaic/images/5.jpeg)
 
 ### 9. Calendar Export / Summary Actions
 The home screen also provides export actions for the current month.
 
-![Calendar Export Options](C:/Users/USER/android_projects/moodmosaic/images/7.jpeg)
+![Calendar Export Options](moodmosaic/images/7.jpeg)
 
 ## Features
 
