@@ -8,11 +8,11 @@ configurations.configureEach {
 }
 
 android {
-    namespace 'com.example.moodmosaic'
+    namespace 'com.moodmosaic'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.example.moodmosaic"
+        applicationId "com.moodmosaic"
         minSdk 24
         targetSdk 35
         versionCode 1
@@ -36,15 +36,10 @@ android {
     buildFeatures {
         viewBinding true
     }
-    dependenciesInfo {
-        includeInApk true
-        includeInBundle true
-    }
-    buildToolsVersion '35.0.0'
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
     implementation 'androidx.recyclerview:recyclerview:1.4.0'

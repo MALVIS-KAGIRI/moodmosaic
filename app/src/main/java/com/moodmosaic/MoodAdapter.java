@@ -1,4 +1,4 @@
-package com.example.moodmosaic;
+package com.moodmosaic;
 
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.moodmosaic.databinding.ItemDayBinding;
+import com.moodmosaic.databinding.ItemDayBinding;
 
 import java.util.HashMap;
 import java.util.List;

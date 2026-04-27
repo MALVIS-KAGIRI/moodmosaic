@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoodMosaic">
         <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ArtActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />

@@ -57,6 +57,31 @@
                 android:text="@string/art_subtitle"
                 android:textColor="#C6D0EB"
                 android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/art_style"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/styleSpinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chip_bg_dark"
+                    android:padding="8dp"
+                    android:popupBackground="@color/hero_surface" />
+            </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -130,6 +155,17 @@
             android:contentDescription="@string/share_art"
             android:padding="16dp"
             android:src="@android:drawable/ic_menu_share"
+            android:tint="@color/ink" />
+
+        <ImageButton
+            android:id="@+id/exportButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button_bg_light"
+            android:contentDescription="@string/export_options"
+            android:padding="16dp"
+            android:src="@android:drawable/ic_menu_upload"
             android:tint="@color/ink" />
     </LinearLayout>
 
