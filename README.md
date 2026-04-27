@@ -2,29 +2,58 @@
 
 MoodMosaic is a Java-based Android mood journal that helps users track feelings through color instead of text. Each day can be logged with a named mood and a matching color, creating a visual monthly calendar that can later be transformed into abstract mood art.
 
-## Screenshots
+## App Walkthrough
 
-### Home Screen
-![MoodMosaic Home](Screenshot_20260423_092613.png)
+### 1. Main Calendar
+The home screen shows the current month, quick actions, and the visual mood grid.
 
-<<<<<<< HEAD
-### Monthly Art Canvas
-![MoodMosaic Art Screen](Screenshot_20260423_092730.png)
+![Main Calendar](C:/Users/USER/android_projects/moodmosaic/images/4.jpeg)
 
-### Calendar View
-![MoodMosaic Calendar](Screenshot_20260423_092753.png)
-=======
-### Monthly Art Screen
-![MoodMosaic Art Screen](C:/Users/USER/Desktop/Screenshot_20260423_092730.png)
+### 2. Logging Moods Over Time
+As users save moods, the monthly summary updates and the selected days become part of the visual story.
 
-### Calendar Grid
-![MoodMosaic Calendar](C:/Users/USER/Desktop/Screenshot_20260423_092753.png)
->>>>>>> 21e0266 ('updateds'')
+![Calendar With Saved Mood](C:/Users/USER/android_projects/moodmosaic/images/9.jpeg)
+
+### 3. Mood Picker
+Tapping a day opens the mood picker with preset moods and saved custom moods.
+
+![Mood Picker](C:/Users/USER/android_projects/moodmosaic/images/2.jpeg)
+
+### 4. Help / Onboarding
+The app includes a built-in explanation of how the experience works.
+
+![How It Works](C:/Users/USER/android_projects/moodmosaic/images/1.jpeg)
+
+### 5. Month History
+Users can review past months and jump back into any saved calendar.
+
+![Month History](C:/Users/USER/android_projects/moodmosaic/images/8.jpeg)
+
+### 6. Art Generation
+The selected month can be turned into an abstract visual composition.
+
+![Art Screen](C:/Users/USER/android_projects/moodmosaic/images/3.jpeg)
+
+### 7. Multiple Art Styles
+Users can switch between different visual styles from the style selector.
+
+![Art Styles Dropdown](C:/Users/USER/android_projects/moodmosaic/images/6.jpeg)
+
+### 8. Export Options
+The app supports exporting both generated art and monthly CSV mood data.
+
+![Art Export Options](C:/Users/USER/android_projects/moodmosaic/images/5.jpeg)
+
+### 9. Calendar Export / Summary Actions
+The home screen also provides export actions for the current month.
+
+![Calendar Export Options](C:/Users/USER/android_projects/moodmosaic/images/7.jpeg)
 
 ## Features
 
 - Daily mood logging with named preset moods and color-coded tiles
 - Custom mood creation with RGB sliders and a custom mood label
+- Reusable saved custom moods so users do not need to recreate favorite moods
 - Monthly 7-column mood calendar
 - Month-by-month mood history with quick jump-back navigation
 - Multiple abstract art styles:
@@ -54,7 +83,8 @@ Tap any day in the month grid to open the mood picker.
 
 Users can:
 - choose one of the preset moods, each mapped to a color
-- create a custom mood with a custom name and RGB-based color
+- reuse one of their saved custom moods
+- create a new custom mood with a custom name and RGB-based color
 
 ### 2. Build a Visual Calendar
 Each saved day appears as a colored square in the monthly grid, turning the calendar into a visual record of mood patterns over time.
@@ -80,11 +110,7 @@ Users can:
 ```text
 app/
   src/main/
-<<<<<<< HEAD
-    java/moodmosaic/
-=======
     java/com/moodmosaic/
->>>>>>> 21e0266 ('updateds'')
       MainActivity.java
       ArtActivity.java
       HistoryActivity.java
@@ -102,7 +128,7 @@ app/
 ## Key Files
 
 - `MainActivity.java`
-  Main calendar screen. Handles month navigation, onboarding, mood picking, export, and quick access to history and art.
+  Main calendar screen. Handles month navigation, onboarding, mood picking, export, history access, and art launch.
 
 - `ArtActivity.java`
   Generates abstract art from monthly mood data and supports style switching, saving, sharing, and export.
@@ -114,13 +140,13 @@ app/
   Binds day cells into the monthly grid and displays saved mood colors.
 
 - `DatabaseHelper.java`
-  Creates and manages the SQLite database, including month summaries and mood history queries.
+  Creates and manages the SQLite database, including mood entries, reusable custom moods, and month summaries.
 
 - `DayMood.java`
   Model for a single mood entry containing a date, color, and mood name.
 
 - `MoodOption.java`
-  Model for preset selectable moods in the picker.
+  Model for preset and saved reusable moods in the picker.
 
 - `MonthSummary.java`
   Model used by the history screen to represent one saved month.
@@ -153,7 +179,7 @@ For wider distribution, generate a signed release APK from:
 - The app is implemented in Java.
 - Mood data is stored locally on-device.
 - The app avoids text-heavy journaling in favor of fast visual check-ins.
-- Screenshot paths in this README currently point to local image files on the original development machine.
+- The screenshots in this README currently point to local image files on the development machine.
 
 ## Possible Next Steps
 
